@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace OurGame
 {
@@ -16,12 +17,18 @@ namespace OurGame
         int cloudspeed;
         int PlayerSpeed;
         int BulletsSpeed;
+        int SizeEnemy;
+        int EnemySpeed;
         Random rnd;
         PictureBox[] bullets;
+        PictureBox[] Enemy;
+        WindowsMediaPlayer Shoot;
+        WindowsMediaPlayer GameSong;
         public Form1()
         {
             InitializeComponent();
         }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -32,6 +39,30 @@ namespace OurGame
             bullets = new PictureBox[1];
             cloud = new PictureBox[20];
             rnd = new Random();
+            Enemy= new PictureBox[3];
+            SizeEnemy = rnd.Next(60, 90);
+            EnemySpeed = 3;
+            Image eassyEnemy = Image.FromFile("Skin\\Enemy.gif");
+
+            for(int i=0;i<Enemy.Length;i++)
+            {
+                Enemy[i] = new PictureBox();
+                Enemy[i].Size = new Size(SizeEnemy, SizeEnemy);
+                Enemy[i].SizeMode = PictureBoxSizeMode.Zoom;
+                Enemy[i].BackColor = Color.Transparent;
+                Enemy[i].Image = eassyEnemy;
+                Enemy[i].Location = new Point((i + 1) * rnd.Next(90, 160) +1080 , rnd.Next(450, 600));
+                this.Controls.Add(Enemy[i]);
+            }
+
+            Shoot = new WindowsMediaPlayer();
+            Shoot.URL = "song\\shoot.KvyDz.mp3";
+            Shoot.settings.volume = 0;
+
+            GameSong = new WindowsMediaPlayer();
+            GameSong.URL = "song\\GameSong.mp3";
+            GameSong.settings.setMode("loop", true);
+            GameSong.settings.volume = 15;
             for (int i = 0; i < bullets.Length; i++)
             {
                 bullets[i] = new PictureBox();
@@ -57,6 +88,7 @@ namespace OurGame
                 }
                 this.Controls.Add(cloud[i]);
             }
+            GameSong.controls.play();
         }
 
         private void time_cloud_Tick(object sender, EventArgs e)
@@ -134,6 +166,8 @@ namespace OurGame
             }
             if(e.KeyCode==Keys.Space)
             {
+                Shoot.settings.volume = 10;
+                Shoot.controls.play();
                 for (int i = 0; i < bullets.Length; i++)
                 {
                     if (bullets[i].Left>1280)
