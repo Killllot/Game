@@ -37,6 +37,7 @@
             this.UpMove = new System.Windows.Forms.Timer(this.components);
             this.DownMove = new System.Windows.Forms.Timer(this.components);
             this.MoveBulletsTimer = new System.Windows.Forms.Timer(this.components);
+            this.tEnemy = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,6 +84,11 @@
             this.MoveBulletsTimer.Interval = 10;
             this.MoveBulletsTimer.Tick += new System.EventHandler(this.MoveBulletsTimer_Tick);
             // 
+            // tEnemy
+            // 
+            this.tEnemy.Enabled = true;
+            this.tEnemy.Interval = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -115,6 +121,7 @@
         private System.Windows.Forms.Timer UpMove;
         private System.Windows.Forms.Timer DownMove;
         private System.Windows.Forms.Timer MoveBulletsTimer;
+        private System.Windows.Forms.Timer tEnemy;
     }
 }
 
