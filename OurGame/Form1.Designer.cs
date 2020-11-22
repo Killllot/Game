@@ -88,6 +88,7 @@
             // 
             this.tEnemy.Enabled = true;
             this.tEnemy.Interval = 10;
+            this.tEnemy.Tick += new System.EventHandler(this.tEnemy_Tick);
             // 
             // Form1
             // 

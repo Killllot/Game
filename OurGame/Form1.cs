@@ -51,7 +51,7 @@ namespace OurGame
                 Enemy[i].SizeMode = PictureBoxSizeMode.Zoom;
                 Enemy[i].BackColor = Color.Transparent;
                 Enemy[i].Image = eassyEnemy;
-                Enemy[i].Location = new Point((i + 1) * rnd.Next(90, 160) +1080 , rnd.Next(450, 600));
+                Enemy[i].Location = new Point((i + 1) * rnd.Next(90, 160) +1080 , rnd.Next(320, 480));
                 this.Controls.Add(Enemy[i]);
             }
 
@@ -166,6 +166,7 @@ namespace OurGame
             }
             if(e.KeyCode==Keys.Space)
             {
+                Intersect();
                 Shoot.settings.volume = 10;
                 Shoot.controls.play();
                 for (int i = 0; i < bullets.Length; i++)
@@ -194,6 +195,43 @@ namespace OurGame
             for (int i=0;i<bullets.Length;i++)
             {
                 bullets[i].Left += BulletsSpeed;
+            }
+        }
+
+        private void tEnemy_Tick(object sender, EventArgs e)
+        {
+            MoveEnemy(Enemy, EnemySpeed);
+        }
+
+        private void MoveEnemy(PictureBox[] enemy, int speed)
+        {
+            for (int i=0;i<enemy.Length;i++)
+            {
+                enemy[i].Left -= speed + (int)(Math.Sin(enemy[i].Left * Math.PI / 180) + Math.Cos(enemy[i].Left * Math.PI / 180));
+
+                Intersect();
+                if (enemy[i].Left<10)
+                {
+                    int SizeEnemy = rnd.Next(60, 90);
+                    enemy[i].Size = new Size(SizeEnemy, SizeEnemy);
+                    enemy[i].Location = new Point((i + 1) * rnd.Next(150, 250) + 720, rnd.Next(320, 480));
+                }
+            }
+        }
+
+        private void Intersect()
+        {
+            for (int i = 0; i < Enemy.Length; i++)
+            {
+                if(bullets[0].Bounds.IntersectsWith(Enemy[i].Bounds))
+                {
+                    Enemy[i].Location = new Point((i + 1) * rnd.Next(150, 250) + 1020, rnd.Next(320, 480));
+                    bullets[0].Location = new Point(1000, Player.Location.Y + 50);
+                }
+                if (Player.Bounds.IntersectsWith(Enemy[i].Bounds))
+                {
+                    Player.Visible = false;
+                }
             }
         }
     }
