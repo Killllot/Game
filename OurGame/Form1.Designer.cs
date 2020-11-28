@@ -38,6 +38,7 @@
             this.DownMove = new System.Windows.Forms.Timer(this.components);
             this.MoveBulletsTimer = new System.Windows.Forms.Timer(this.components);
             this.tEnemy = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,6 +89,17 @@
             // 
             this.tEnemy.Enabled = true;
             this.tEnemy.Interval = 10;
+            this.tEnemy.Tick += new System.EventHandler(this.tEnemy_Tick);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(36, 13);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Exit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -96,13 +108,16 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(948, 553);
+            this.ClientSize = new System.Drawing.Size(964, 592);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Player);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximumSize = new System.Drawing.Size(964, 592);
             this.MinimumSize = new System.Drawing.Size(964, 592);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
@@ -122,6 +137,7 @@
         private System.Windows.Forms.Timer DownMove;
         private System.Windows.Forms.Timer MoveBulletsTimer;
         private System.Windows.Forms.Timer tEnemy;
+        private System.Windows.Forms.Button button1;
     }
 }
 
