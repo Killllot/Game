@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WMPLib;
+using System.IO;
 
 namespace OurGame
 {
@@ -18,11 +19,14 @@ namespace OurGame
         PictureBox[] bullets;
         PictureBox[] Enemy;
 
+        string WrightList = @"myList.txt";
         int cloudspeed;
         int PlayerSpeed;
         int BulletsSpeed;
         int SizeEnemy;
         int EnemySpeed;
+        int Score;
+        //int Level;
 
         WindowsMediaPlayer Shoot;
         WindowsMediaPlayer GameSong;
@@ -38,15 +42,25 @@ namespace OurGame
         private void Form1_Load(object sender, EventArgs e)
         {
             this.SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.DoubleBuffer, true);
+
+            
+
             cloudspeed = 5;
             PlayerSpeed = 5;
             BulletsSpeed = 80;
+
+            Score = 0;
+            //Level = 1;
+
             bullets = new PictureBox[1];
             cloud = new PictureBox[20];
             rnd = new Random();
             Enemy = new PictureBox[3];
+
             SizeEnemy = rnd.Next(60, 90);
             EnemySpeed = 3;
+
+
             Image eassyEnemy = Image.FromFile("Skin\\Enemy.gif");
 
             for (int i = 0; i < Enemy.Length; i++)
@@ -77,7 +91,7 @@ namespace OurGame
                 bullets[i] = new PictureBox();
                 bullets[i].BorderStyle = BorderStyle.None;
                 bullets[i].Size = new Size(20, 5);
-                bullets[i].BackColor = Color.Purple;
+                bullets[i].BackColor = Color.Red;
                 this.Controls.Add(bullets[i]);
             }
             for (int i = 0; i < cloud.Length; i++)
@@ -110,14 +124,7 @@ namespace OurGame
                     cloud[i].Left = cloud[i].Height;
                 }
             }
-            /*for (int i = cloud.Length; i < cloud.Length; i++)
-            {
-                cloud[i].Left += cloudspeed - 10;
-                if (cloud[i].Left >= 1280)
-                {
-                    cloud[i].Left = cloud[i].Left;
-                }
-            }*/
+            
         }
         private void LeftMove_Tick(object sender, EventArgs e)
         {
@@ -151,10 +158,15 @@ namespace OurGame
             }
         }
 
+        int flag = 0;
+        
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-
-            Player.Image = Properties.Resources.cowboy_run;
+            if (e.KeyCode == Keys.Escape)
+            {
+                time_cloud.Stop();
+            }
+            Player.Image = Properties.Resources.run;
             if (e.KeyCode == Keys.Up)
             {
                 UpMove.Start();
@@ -178,19 +190,26 @@ namespace OurGame
                 Intersect();
                 Shoot.settings.volume = 10;
                 Shoot.controls.play();
+
+                Player.Image = Properties.Resources.shoot_2;
+
                 for (int i = 0; i < bullets.Length; i++)
                 {
-                    if (bullets[i].Left > 1280)
+                    
+                    if (bullets[i].Left > 1000)
                     {
                         bullets[i].Location = new Point(Player.Location.X + 100 + i * 50, Player.Location.Y + 50);
                     }
+
+                 
                 }
+                Player.Image = Properties.Resources.stay1;
             }
         }
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
-            Player.Image = Properties.Resources.cowboy;
+            Player.Image = Properties.Resources.stay1;
 
             LeftMove.Stop();
             RightMove.Stop();
@@ -201,10 +220,13 @@ namespace OurGame
 
         private void MoveBulletsTimer_Tick(object sender, EventArgs e)
         {
+            Player.Image = Properties.Resources.shoot_2;
             for (int i = 0; i < bullets.Length; i++)
             {
+                
                 bullets[i].Left += BulletsSpeed;
             }
+            //Player.Image = Properties.Resources.stay1;
         }
 
         private void tEnemy_Tick(object sender, EventArgs e)
@@ -234,23 +256,74 @@ namespace OurGame
             {
                 if (bullets[0].Bounds.IntersectsWith(Enemy[i].Bounds))
                 {
+                    Score += 1;
+                    label3.Text = (Score < 10) ? "0" + Score.ToString() : Score.ToString();
+
+                    if (Score==23)
+                    {
+                        GameOver("YOU WIN!!!");
+                    }
                     Enemy[i].Location = new Point((i + 1) * rnd.Next(150, 250) + 1020, rnd.Next(320, 480));
-                    bullets[0].Location = new Point(1000, Player.Location.Y + 50);
+                    bullets[0].Location = new Point(2000, Player.Location.Y + 50);
                 }
                 if (Player.Bounds.IntersectsWith(Enemy[i].Bounds))
                 {
                     GameSong.settings.volume = 0;
-                    Rip.settings.volume = 100;
+                    //Rip.settings.volume = 100;
                     Player.Visible = false;
                     GameSong.settings.volume = 15;
+                    GameOver("GAME OVER");
+                    string Kills;
+                    using (StreamReader rd = new StreamReader(WrightList, System.Text.Encoding.Default))
+                    {
+                        Kills = rd.ReadLine();
+                    }
+                    if (Int32.Parse(Kills)<Score)
+                    {
+                        using (StreamWriter sw = new StreamWriter(WrightList, false))
+                        {
+                            sw.WriteLine(Score);
+                        }
+                    }
+                    
                 }
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void GameOver(string H)
+        {
+            label1.Text = H;
+            label1.Location = new Point(300, 100);
+            label1.Visible = true;
+            GameSong.controls.stop();
+            Rip.settings.volume = 100;
+            tEnemy.Stop();
+            MoveBulletsTimer.Stop();
+            ExitButton.Visible = true;
+
+        }
+
+
+        /*private void button1_Click(object sender, EventArgs e)
         {
             GameSong.controls.stop();
             this.Close();
+        }*/
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
         }
     }
 }

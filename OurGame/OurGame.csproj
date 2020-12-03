@@ -130,5 +130,20 @@
   <ItemGroup>
     <None Include="Resources\background_01.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoot_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stay1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\run.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bf683fbe25be45df8a23ce65682b6c3e87a6078a.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
