@@ -54,10 +54,10 @@
             // 
             this.Player.BackColor = System.Drawing.Color.Transparent;
             this.Player.Image = global::OurGame.Properties.Resources.stay1;
-            this.Player.Location = new System.Drawing.Point(497, 434);
-            this.Player.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Player.Location = new System.Drawing.Point(373, 353);
+            this.Player.Margin = new System.Windows.Forms.Padding(2);
             this.Player.Name = "Player";
-            this.Player.Size = new System.Drawing.Size(125, 121);
+            this.Player.Size = new System.Drawing.Size(94, 98);
             this.Player.TabIndex = 0;
             this.Player.TabStop = false;
             // 
@@ -98,11 +98,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.Lime;
-            this.label1.Location = new System.Drawing.Point(743, 79);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label1.Location = new System.Drawing.Point(557, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 113);
+            this.label1.Size = new System.Drawing.Size(0, 89);
             this.label1.TabIndex = 2;
             this.label1.Visible = false;
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -113,10 +112,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.Maroon;
-            this.label2.Location = new System.Drawing.Point(1025, 22);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(769, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(159, 66);
+            this.label2.Size = new System.Drawing.Size(125, 52);
             this.label2.TabIndex = 3;
             this.label2.Text = "Score";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -127,42 +125,52 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.Maroon;
-            this.label3.Location = new System.Drawing.Point(1177, 22);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(883, 18);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 66);
+            this.label3.Size = new System.Drawing.Size(69, 52);
             this.label3.TabIndex = 4;
             this.label3.Text = "00";
             // 
             // ExitButton
             // 
-            this.ExitButton.Location = new System.Drawing.Point(497, 314);
+            this.ExitButton.BackColor = System.Drawing.Color.Transparent;
+            this.ExitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ExitButton.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ExitButton.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.ExitButton.FlatAppearance.BorderSize = 0;
+            this.ExitButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.ExitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ExitButton.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ExitButton.ForeColor = System.Drawing.Color.Red;
+            this.ExitButton.Location = new System.Drawing.Point(2, 64);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(125, 52);
-            this.ExitButton.TabIndex = 5;
-            this.ExitButton.Text = "Exit";
-            this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Size = new System.Drawing.Size(210, 117);
+            this.ExitButton.TabIndex = 6;
+            this.ExitButton.Text = "Menu";
+            this.ExitButton.UseVisualStyleBackColor = false;
             this.ExitButton.Visible = false;
-            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click_1);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BackgroundImage = global::OurGame.Properties.Resources.background_01;
+            this.BackgroundImage = global::OurGame.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1285, 729);
+            this.ClientSize = new System.Drawing.Size(964, 592);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Player);
             this.DoubleBuffered = true;
+            this.ForeColor = System.Drawing.Color.Transparent;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MaximumSize = new System.Drawing.Size(1285, 729);
-            this.MinimumSize = new System.Drawing.Size(1285, 729);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximumSize = new System.Drawing.Size(964, 592);
+            this.MinimumSize = new System.Drawing.Size(964, 592);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";

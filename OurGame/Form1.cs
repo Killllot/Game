@@ -158,7 +158,6 @@ namespace OurGame
             }
         }
 
-        int flag = 0;
         
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
@@ -299,16 +298,13 @@ namespace OurGame
             Rip.settings.volume = 100;
             tEnemy.Stop();
             MoveBulletsTimer.Stop();
+            ExitButton.Location = new Point(380, 200);
             ExitButton.Visible = true;
 
         }
 
 
-        /*private void button1_Click(object sender, EventArgs e)
-        {
-            GameSong.controls.stop();
-            this.Close();
-        }*/
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -320,10 +316,12 @@ namespace OurGame
 
         }
 
-        private void ExitButton_Click(object sender, EventArgs e)
+
+        private void ExitButton_Click_1(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
             form2.Show();
+            this.Close();
         }
     }
 }
