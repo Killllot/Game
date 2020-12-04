@@ -14,7 +14,7 @@
 *.userprefs
 
 # Build results
-![Dd]ebug/Song/
+!/bin/Debug/Song/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
