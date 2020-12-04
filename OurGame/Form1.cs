@@ -61,7 +61,7 @@ namespace OurGame
             EnemySpeed = 3;
 
 
-            Image eassyEnemy = Image.FromFile("Skin\\Enemy.gif");
+            Image eassyEnemy = Properties.Resources.Enemy;
 
             for (int i = 0; i < Enemy.Length; i++)
             {
