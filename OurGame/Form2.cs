@@ -15,6 +15,7 @@ namespace OurGame
     {
         public Form2()
         {
+
             InitializeComponent();
         }
 
@@ -25,19 +26,12 @@ namespace OurGame
             //Form2 dlg2 = new Form2();
             this.Hide();
         }
+
         string WrightList = @"myList.txt";
-
-        private void Record_TextChanged(object sender, EventArgs e)
-        {
-            
-                    
-        }
-
         
-
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            
             using (StreamReader rd = new StreamReader(WrightList))
             {
                 label1.Text = "Record: " + rd.ReadLine();
@@ -49,9 +43,6 @@ namespace OurGame
             Application.Exit();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+ 
     }
 }

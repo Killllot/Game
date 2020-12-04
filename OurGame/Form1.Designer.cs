@@ -54,6 +54,7 @@
             // 
             this.Player.BackColor = System.Drawing.Color.Transparent;
             this.Player.Image = global::OurGame.Properties.Resources.stay1;
+            this.Player.InitialImage = global::OurGame.Properties.Resources.stay1;
             this.Player.Location = new System.Drawing.Point(373, 353);
             this.Player.Margin = new System.Windows.Forms.Padding(2);
             this.Player.Name = "Player";
