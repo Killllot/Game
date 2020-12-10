@@ -1,0 +1,66 @@
+C:\Users\prisa\source\repos\OurGame\OurGame\bin\Debug\OurGame.exe.config
+C:\Users\prisa\source\repos\OurGame\OurGame\bin\Debug\OurGame.exe
+C:\Users\prisa\source\repos\OurGame\OurGame\bin\Debug\OurGame.pdb
+C:\Users\prisa\source\repos\OurGame\OurGame\obj\Debug\OurGame.csprojAssemblyReference.cache
+C:\Users\prisa\source\repos\OurGame\OurGame\obj\Debug\OurGame.Form1.resources
+C:\Users\prisa\source\repos\OurGame\OurGame\obj\Debug\OurGame.Properties.Resources.resources
+C:\Users\prisa\source\repos\OurGame\OurGame\obj\Debug\OurGame.csproj.GenerateResource.cache
+C:\Users\prisa\source\repos\OurGame\OurGame\obj\Debug\OurGame.csproj.CoreCompileInputs.cache
+C:\Users\prisa\source\repos\OurGame\OurGame\obj\Debug\OurGame.exe
+C:\Users\prisa\source\repos\OurGame\OurGame\obj\Debug\OurGame.pdb
+D:\OurGame (2)\OurGame\bin\Debug\OurGame.exe.config
+D:\OurGame (2)\OurGame\bin\Debug\OurGame.exe
+D:\OurGame (2)\OurGame\bin\Debug\OurGame.pdb
+D:\OurGame (2)\OurGame\obj\Debug\OurGame.csprojAssemblyReference.cache
+D:\OurGame (2)\OurGame\obj\Debug\OurGame.Form1.resources
+D:\OurGame (2)\OurGame\obj\Debug\OurGame.Properties.Resources.resources
+D:\OurGame (2)\OurGame\obj\Debug\OurGame.csproj.GenerateResource.cache
+D:\OurGame (2)\OurGame\obj\Debug\OurGame.csproj.CoreCompileInputs.cache
+D:\OurGame (2)\OurGame\obj\Debug\OurGame.exe
+D:\OurGame (2)\OurGame\obj\Debug\OurGame.pdb
+D:\OurGame (2)\OurGame\obj\Debug\Interop.MediaPlayer.dll
+D:\OurGame (2)\OurGame\obj\Debug\Interop.WMPLib.dll
+D:\OurGame (2)\OurGame\obj\Debug\OurGame.csproj.ResolveComReference.cache
+D:\OurGame (2)\OurGame\obj\Debug\OurGame.Form2.resources
+D:\Проект по СВП\OurGame\bin\Debug\OurGame.exe.config
+D:\Проект по СВП\OurGame\bin\Debug\OurGame.exe
+D:\Проект по СВП\OurGame\bin\Debug\OurGame.pdb
+D:\Проект по СВП\OurGame\obj\Debug\OurGame.csprojAssemblyReference.cache
+D:\Проект по СВП\OurGame\obj\Debug\Interop.MediaPlayer.dll
+D:\Проект по СВП\OurGame\obj\Debug\Interop.WMPLib.dll
+D:\Проект по СВП\OurGame\obj\Debug\OurGame.csproj.ResolveComReference.cache
+D:\Проект по СВП\OurGame\obj\Debug\OurGame.Form1.resources
+D:\Проект по СВП\OurGame\obj\Debug\OurGame.Form2.resources
+D:\Проект по СВП\OurGame\obj\Debug\OurGame.Properties.Resources.resources
+D:\Проект по СВП\OurGame\obj\Debug\OurGame.csproj.GenerateResource.cache
+D:\Проект по СВП\OurGame\obj\Debug\OurGame.csproj.CoreCompileInputs.cache
+D:\Проект по СВП\OurGame\obj\Debug\OurGame.exe
+D:\Проект по СВП\OurGame\obj\Debug\OurGame.pdb
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\bin\Debug\OurGame.exe.config
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\bin\Debug\OurGame.exe
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\bin\Debug\OurGame.pdb
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\obj\Debug\OurGame.csprojAssemblyReference.cache
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\obj\Debug\OurGame.csproj.ResolveComReference.cache
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\obj\Debug\OurGame.Form1.resources
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\obj\Debug\OurGame.Form2.resources
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\obj\Debug\OurGame.Properties.Resources.resources
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\obj\Debug\OurGame.csproj.GenerateResource.cache
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\obj\Debug\OurGame.csproj.CoreCompileInputs.cache
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\obj\Debug\OurGame.exe
+C:\Users\prisa\Desktop\Проект по СВП\OurGame\obj\Debug\OurGame.pdb
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\bin\Debug\OurGame.exe.config
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\bin\Debug\OurGame.exe
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\bin\Debug\OurGame.pdb
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csprojAssemblyReference.cache
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.ResolveComReference.cache
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form1.resources
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form2.resources
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Properties.Resources.resources
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.GenerateResource.cache
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.CoreCompileInputs.cache
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.exe
+C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.pdb
