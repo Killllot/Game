@@ -61,7 +61,7 @@ namespace OurGame
             this.ExitGame.Font = new System.Drawing.Font("Solid Edge Stencil", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitGame.ForeColor = System.Drawing.Color.Red;
             this.ExitGame.Location = new System.Drawing.Point(486, 8);
-            this.ExitGame.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ExitGame.Margin = new System.Windows.Forms.Padding(2);
             this.ExitGame.Name = "ExitGame";
             this.ExitGame.Size = new System.Drawing.Size(125, 61);
             this.ExitGame.TabIndex = 2;
@@ -80,6 +80,7 @@ namespace OurGame
             this.label1.Size = new System.Drawing.Size(24, 35);
             this.label1.TabIndex = 5;
             this.label1.Text = "-";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form2
             // 

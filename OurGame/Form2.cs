@@ -27,7 +27,7 @@ namespace OurGame
             this.Hide();
         }
 
-        string WrightList = @"myList.txt";
+        string WrightList = @"../../Resources/myList.txt";
         
         private void Form2_Load(object sender, EventArgs e)
         {
@@ -43,6 +43,9 @@ namespace OurGame
             Application.Exit();
         }
 
- 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
