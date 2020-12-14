@@ -75,15 +75,16 @@ namespace OurGame
             }
 
             Shoot = new WindowsMediaPlayer();
-            Shoot.URL = "song\\shoot.KvyDz.mp3";
+            Shoot.URL = "Resources\\shoot.KvyDz.mp3";
             Shoot.settings.volume = 0;
 
             Rip = new WindowsMediaPlayer();
-            Rip.URL = "song\\rip.mp3";
+            Rip.URL = "Resources\\rip.mp3";
             Rip.settings.volume = 0;
 
             GameSong = new WindowsMediaPlayer();
-            GameSong.URL = "song\\GameSong.mp3";
+            GameSong.URL = 
+                "Resources\\GameSong.mp3";
             GameSong.settings.setMode("loop", true);
             GameSong.settings.volume = 15;
             for (int i = 0; i < bullets.Length; i++)
