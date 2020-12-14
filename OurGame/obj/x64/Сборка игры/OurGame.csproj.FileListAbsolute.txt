@@ -1,0 +1,16 @@
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\obj\x64\Сборка игры\OurGame.csprojAssemblyReference.cache
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\obj\x64\Сборка игры\Interop.MediaPlayer.dll
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\obj\x64\Сборка игры\Interop.WMPLib.dll
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\obj\x64\Сборка игры\OurGame.csproj.ResolveComReference.cache
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\obj\x64\Сборка игры\OurGame.Form1.resources
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\obj\x64\Сборка игры\OurGame.Form2.resources
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\obj\x64\Сборка игры\OurGame.Properties.Resources.resources
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\obj\x64\Сборка игры\OurGame.csproj.GenerateResource.cache
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\obj\x64\Сборка игры\OurGame.csproj.CoreCompileInputs.cache
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\obj\x64\Сборка игры\OurGame.exe
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame.exe.config
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame.exe
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\Resources\OurGame.exe.config
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\Resources\OurGame.exe
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\OurGame.exe.config
+C:\Users\fillo\Desktop\Учеба\2 курс\СВП\Проект по СВП (2)\OurGame\OurGame.exe

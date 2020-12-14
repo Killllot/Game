@@ -27,7 +27,7 @@ namespace OurGame
             this.Hide();
         }
 
-        string WrightList = @"../../Resources/myList.txt";
+        string WrightList = @"Resources/myList.txt";
         
         private void Form2_Load(object sender, EventArgs e)
         {
