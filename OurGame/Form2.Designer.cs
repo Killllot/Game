@@ -87,7 +87,7 @@ namespace OurGame
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = global::OurGame.Properties.Resources.bf683fbe25be45df8a23ce65682b6c3e87a6078a;
+            this.BackgroundImage = global::OurGame.Properties.Resources.e9f1703c7aabbbb62377cba8a6f5984b_ce_4000x2133x0x60;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(632, 325);
             this.Controls.Add(this.label1);

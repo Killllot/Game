@@ -124,6 +124,9 @@
   <data name="bf683fbe25be45df8a23ce65682b6c3e87a6078a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bf683fbe25be45df8a23ce65682b6c3e87a6078a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="UzfThlZSXrY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UzfThlZSXrY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -147,5 +150,8 @@
   </data>
   <data name="Enemy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Enemy1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e9f1703c7aabbbb62377cba8a6f5984b_ce_4000x2133x0x60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e9f1703c7aabbbb62377cba8a6f5984b_ce_4000x2133x0x60.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

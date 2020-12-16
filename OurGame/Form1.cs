@@ -19,14 +19,14 @@ namespace OurGame
         PictureBox[] bullets;
         PictureBox[] Enemy;
 
-        string WrightList = @"myList.txt";
+        string WrightList = @"Resources\\myList.txt";
         int cloudspeed;
         int PlayerSpeed;
         int BulletsSpeed;
         int SizeEnemy;
         int EnemySpeed;
         int Score;
-        //int Level;
+        
 
         WindowsMediaPlayer Shoot;
         WindowsMediaPlayer GameSong;
@@ -144,7 +144,7 @@ namespace OurGame
         }
         private void UpMove_Tick(object sender, EventArgs e)
         {
-            if (Player.Top > 320)
+            if (Player.Top > 280)
             {
                 Player.Top -= PlayerSpeed;
             }
@@ -153,7 +153,7 @@ namespace OurGame
 
         private void DownMove_Tick(object sender, EventArgs e)
         {
-            if (Player.Top < 450)
+            if (Player.Top < 500)
             {
                 Player.Top += PlayerSpeed;
             }
@@ -166,7 +166,7 @@ namespace OurGame
             {
                 time_cloud.Stop();
             }
-            Player.Image = Properties.Resources.run;
+            Player.Image = Properties.Resources.cowboy_run;
             if (e.KeyCode == Keys.Up)
             {
                 UpMove.Start();
@@ -191,7 +191,7 @@ namespace OurGame
                 Shoot.settings.volume = 10;
                 Shoot.controls.play();
 
-                Player.Image = Properties.Resources.shoot_2;
+                
 
                 for (int i = 0; i < bullets.Length; i++)
                 {
@@ -203,13 +203,14 @@ namespace OurGame
 
                  
                 }
-                Player.Image = Properties.Resources.stay1;
+                
             }
+           // Player.Image = Properties.Resources.cowboy;
         }
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
-            Player.Image = Properties.Resources.stay1;
+            Player.Image = Properties.Resources.cowboy;
 
             LeftMove.Stop();
             RightMove.Stop();
@@ -220,7 +221,7 @@ namespace OurGame
 
         private void MoveBulletsTimer_Tick(object sender, EventArgs e)
         {
-            Player.Image = Properties.Resources.shoot_2;
+            //Player.Image = Properties.Resources.shoot_2;
             for (int i = 0; i < bullets.Length; i++)
             {
                 
@@ -245,7 +246,7 @@ namespace OurGame
                 {
                     int SizeEnemy = rnd.Next(60, 90);
                     enemy[i].Size = new Size(SizeEnemy, SizeEnemy);
-                    enemy[i].Location = new Point((i + 1) * rnd.Next(150, 250) + 720, rnd.Next(320, 480));
+                    enemy[i].Location = new Point((i + 1) * rnd.Next(150, 250) + 720, rnd.Next(280, 500));
                 }
             }
         }
@@ -323,6 +324,11 @@ namespace OurGame
             Form2 form2 = new Form2();
             form2.Show();
             this.Close();
+        }
+
+        private void Player_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
