@@ -5,28 +5,28 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OurGame", "OurGame\OurGame.csproj", "{5BBDEC06-EF7E-479B-8F9A-DE3238751459}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{2047A1B5-34BD-43C0-B017-C61992AEB37B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedTest", "SpeedTest\SpeedTest.csproj", "{949C5E73-0136-4786-84CE-1AE80F4AA65B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Сборка игры|Any CPU = Сборка игры|Any CPU
-		Сборка игры|x64 = Сборка игры|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Debug|x64.ActiveCfg = Debug|x64
-		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Debug|x64.Build.0 = Debug|x64
 		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Release|x64.ActiveCfg = Release|x64
-		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Release|x64.Build.0 = Release|x64
-		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Сборка игры|Any CPU.ActiveCfg = Сборка игры|Any CPU
-		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Сборка игры|Any CPU.Build.0 = Сборка игры|Any CPU
-		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Сборка игры|x64.ActiveCfg = Сборка игры|x64
-		{5BBDEC06-EF7E-479B-8F9A-DE3238751459}.Сборка игры|x64.Build.0 = Сборка игры|x64
+		{2047A1B5-34BD-43C0-B017-C61992AEB37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2047A1B5-34BD-43C0-B017-C61992AEB37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2047A1B5-34BD-43C0-B017-C61992AEB37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2047A1B5-34BD-43C0-B017-C61992AEB37B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949C5E73-0136-4786-84CE-1AE80F4AA65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949C5E73-0136-4786-84CE-1AE80F4AA65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949C5E73-0136-4786-84CE-1AE80F4AA65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949C5E73-0136-4786-84CE-1AE80F4AA65B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

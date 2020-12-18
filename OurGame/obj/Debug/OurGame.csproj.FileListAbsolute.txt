@@ -64,3 +64,71 @@ C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.cs
 C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.CoreCompileInputs.cache
 C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.exe
 C:\Users\fillo\Desktop\Проект по СВП (2)\OurGame\obj\Debug\OurGame.pdb
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\bin\Debug\OurGame.exe.config
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\bin\Debug\OurGame.exe
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\bin\Debug\OurGame.pdb
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csprojAssemblyReference.cache
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.ResolveComReference.cache
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form1.resources
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form2.resources
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Properties.Resources.resources
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.GenerateResource.cache
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.CoreCompileInputs.cache
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\obj\Debug\OurGame.exe
+C:\Users\prisa\Desktop\Проект по СВП (2) (1)\Проект по СВП (2)\OurGame\obj\Debug\OurGame.pdb
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\bin\Debug\OurGame.exe.config
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\bin\Debug\OurGame.exe
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\bin\Debug\OurGame.pdb
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csprojAssemblyReference.cache
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.ResolveComReference.cache
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form1.resources
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form2.resources
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Properties.Resources.resources
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.GenerateResource.cache
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.CoreCompileInputs.cache
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\OurGame.exe
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\OurGame.pdb
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\bin\Debug\ru\OurGame.resources.dll
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form1.ru.resources
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form2.ru.resources
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа\Проект по СВП (2)\OurGame\obj\Debug\ru\OurGame.resources.dll
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csprojAssemblyReference.cache
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.ResolveComReference.cache
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form1.resources
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form2.resources
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Properties.Resources.resources
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form1.ru.resources
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form2.ru.resources
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.GenerateResource.cache
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.CoreCompileInputs.cache
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.exe
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.pdb
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\bin\Debug\OurGame.exe.config
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\bin\Debug\OurGame.exe
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\bin\Debug\OurGame.pdb
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\bin\Debug\ru\OurGame.resources.dll
+C:\Users\prisa\Desktop\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\ru\OurGame.resources.dll
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csprojAssemblyReference.cache
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.ResolveComReference.cache
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form1.resources
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form2.resources
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Properties.Resources.resources
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form1.ru.resources
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.Form2.ru.resources
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.GenerateResource.cache
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.csproj.CoreCompileInputs.cache
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\ru\OurGame.resources.dll
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.exe
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\obj\Debug\OurGame.pdb
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\OurGame.exe.config
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\OurGame.exe
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\OurGame.pdb
+C:\Users\fillo\Desktop\Наша играа жизнь игра всё игра аааа — копия\Наша играа жизнь игра всё игра аааа — копия\Проект по СВП (2)\OurGame\ru\OurGame.resources.dll
