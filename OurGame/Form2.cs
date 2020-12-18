@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Подкючение требуемых библиотек
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,47 +11,45 @@ using System.Windows.Forms;
 using System.IO;
 using System.Globalization;
 using System.Threading;
-
-
 namespace OurGame
 {
     public partial class Form2 : Form
     {
 
-        string lan;
+        
         public Form2()
         {
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en");//присваиваем культуру
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en");//Присваиваем начальную культуру
         
             InitializeComponent();
             comboBox1.SelectedIndex = 0;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form1 form1 = new Form1();
-            form1.Show();
-            //Form2 dlg2 = new Form2();
-            this.Hide();
-        }
-
-        string WrightList = @"myList.txt";
+        //Путь к текстовому файлу
+        string WrightList = @"Resources\myList.txt";
         
+        //Загрузка 
         private void Form2_Load(object sender, EventArgs e)
         {
+            
             Form2 form = new Form2();
-             
+            //Кнопка выхода
+            ExitGame.Click += (s, a) => { Application.Exit(); };
+            //Кнопка старта игры
+            button1.Click += (s, a) => {
+                //Переключение и сокрытие формы
+                Form1 form1 = new Form1();
+                form1.Show();
+                this.Hide();
+            };
+            //Чтение текста файла, путь к которому прописан в переменной WrightList и вывод его значение в поле рекорда
             using (StreamReader rd = new StreamReader(WrightList))
             {
                 label1.Text = "Record: " + rd.ReadLine();
             }
         }
 
-        private void ExitGame_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
+        //Кнопка смены языковой среды языковой среды
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedIndex==0)
@@ -63,6 +62,8 @@ namespace OurGame
             }
         }
     }
+
+    //Локализация
     public static class LocalizationHelper
     {
         public static void ApplyCulture(string cultureName = "en")

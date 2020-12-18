@@ -54,8 +54,8 @@
             // Player
             // 
             this.Player.BackColor = System.Drawing.Color.Transparent;
-            this.Player.Image = global::OurGame.Properties.Resources.stay1;
-            this.Player.InitialImage = global::OurGame.Properties.Resources.stay1;
+            this.Player.Image = global::OurGame.Properties.Resources.cowboy;
+            this.Player.InitialImage = global::OurGame.Properties.Resources.cowboy;
             resources.ApplyResources(this.Player, "Player");
             this.Player.Name = "Player";
             this.Player.TabStop = false;
@@ -98,7 +98,6 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label1.Name = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -106,7 +105,6 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.Maroon;
             this.label2.Name = "label2";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -127,14 +125,13 @@
             this.ExitButton.ForeColor = System.Drawing.Color.Red;
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.UseVisualStyleBackColor = false;
-            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click_1);
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.BackgroundImage = global::OurGame.Properties.Resources.background;
+            this.BackgroundImage = global::OurGame.Properties.Resources.mFYke_Xstl0;
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

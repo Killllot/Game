@@ -46,7 +46,6 @@ namespace OurGame
             this.button1.ForeColor = System.Drawing.Color.Red;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ExitGame
             // 
@@ -57,7 +56,6 @@ namespace OurGame
             this.ExitGame.ForeColor = System.Drawing.Color.Red;
             this.ExitGame.Name = "ExitGame";
             this.ExitGame.UseVisualStyleBackColor = false;
-            this.ExitGame.Click += new System.EventHandler(this.ExitGame_Click);
             // 
             // label1
             // 
@@ -69,12 +67,12 @@ namespace OurGame
             // comboBox1
             // 
             this.comboBox1.BackColor = System.Drawing.Color.Red;
-            this.comboBox1.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.ForeColor = System.Drawing.Color.Transparent;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
             resources.GetString("comboBox1.Items1")});
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -83,7 +81,7 @@ namespace OurGame
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = global::OurGame.Properties.Resources.bf683fbe25be45df8a23ce65682b6c3e87a6078a;
+            this.BackgroundImage = global::OurGame.Properties.Resources.e9f1703c7aabbbb62377cba8a6f5984b_ce_4000x2133x0x60;
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ExitGame);

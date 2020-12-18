@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>.\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -156,11 +156,16 @@
     <None Include="Resources\background.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\UzfThlZSXrY.jpg" />
+    <None Include="Resources\20201216_224342.jpg" />
     <Content Include="Resources\AlbumArtSmall.jpg" />
+    <None Include="Resources\e9f1703c7aabbbb62377cba8a6f5984b_ce_4000x2133x0x60.jpg" />
     <Content Include="Resources\Enemy.gif" />
     <None Include="Resources\Enemy1.gif" />
     <Content Include="Resources\Folder.jpg" />
     <Content Include="Resources\GameSong.mp3" />
+    <None Include="Resources\k1cY58GgFtw.jpg" />
+    <None Include="Resources\mFYke_Xstl0.jpg" />
     <Content Include="Resources\rip.mp3" />
     <Content Include="Resources\shoot.KvyDz.mp3" />
     <Content Include="Resources\Shoot.mp3" />
