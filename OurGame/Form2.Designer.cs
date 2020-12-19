@@ -38,8 +38,8 @@ namespace OurGame
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.button1, "button1");
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Cursor = System.Windows.Forms.Cursors.Default;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button1.FlatAppearance.BorderSize = 0;
@@ -49,13 +49,14 @@ namespace OurGame
             // 
             // ExitGame
             // 
+            resources.ApplyResources(this.ExitGame, "ExitGame");
             this.ExitGame.BackColor = System.Drawing.Color.Transparent;
             this.ExitGame.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.ExitGame.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.ExitGame, "ExitGame");
             this.ExitGame.ForeColor = System.Drawing.Color.Red;
             this.ExitGame.Name = "ExitGame";
             this.ExitGame.UseVisualStyleBackColor = false;
+            this.ExitGame.Click += new System.EventHandler(this.ExitGame_Click);
             // 
             // label1
             // 
@@ -66,8 +67,8 @@ namespace OurGame
             // 
             // comboBox1
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.Red;
             resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.BackColor = System.Drawing.Color.Red;
             this.comboBox1.ForeColor = System.Drawing.Color.Transparent;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {

@@ -61,6 +61,11 @@ namespace OurGame
                 LocalizationHelper.ApplyCulture("ru");
             }
         }
+
+        private void ExitGame_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     //Локализация

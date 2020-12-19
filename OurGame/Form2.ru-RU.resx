@@ -117,17 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Старт</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 135</value>
+  </data>
   <data name="ExitGame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>423, 11</value>
-  </data>
-  <data name="ExitGame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 75</value>
-  </data>
-  <data name="ExitGame.Text" xml:space="preserve">
-    <value>Выход</value>
+    <value>425, 11</value>
   </data>
 </root>
